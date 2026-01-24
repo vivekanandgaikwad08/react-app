@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from "./Mycomponents/header";
+import {Todos} from "./Mycomponents/Todos";
+import {Footer} from "./Mycomponents/Footer";
 
 function App() {
   return (
     <>
-      <Header/>
+      <Header title="Todos List" searchbar={true}/>
+      <Todos/>
+      <Footer/>
     </>
 
   );
